@@ -1,0 +1,305 @@
+/********************************** 
+         début Généralités 
+**********************************/
+
+*{
+    margin : 0px;
+    padding : 0px; 
+}
+
+h1, h3 {
+    color: blueviolet;
+    clear: both;
+    text-align: center;
+}
+
+
+/****************  début header ***************/
+
+header {
+    background-image : linear-gradient(180deg, #fdfe15, white 40%);
+    position: relative;
+}
+
+.container_img_logo > img {
+    border-radius: 50%;
+    padding: 5px;
+}
+
+/***** début nav header ********/
+
+ul {
+    list-style:none;
+    position: absolute;
+    top : 15%; 
+    width : 100%;  
+}
+
+ul li {
+    border : 7px solid white; 
+    border-radius: 50%;
+    color : white;
+    background-color :blueviolet;
+    margin-left: 0.3rem;
+}
+
+ul li.float_left {
+    float:left;
+    padding:0.5rem;
+}
+
+ul li.float_right {
+    float : right;
+    padding : 0.5rem;
+}
+
+a {
+    text-decoration:none;
+    color: white;
+    font-weight : bold;
+    padding-inline : 7px;
+}
+
+/***** fin nav header ********/
+
+.retour_lord {
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    display: flex;
+    gap: 5%;
+    align-items : center;
+    justify-content: center;
+    margin-block : 10px;
+    background-color: yellow;
+    padding: 10px;
+   
+    /* background-repeat: repeat; */
+    background-image: url("../Assets/images/img3.jpg" );
+    /* background-position: right ; */
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.retour_lord > div {
+    border: 4px solid  blueviolet;
+    padding: 5px;
+    background-color: white;
+    text-align: center;
+}
+
+/********* début partie time *******/
+
+ .div_time_date {
+    width: 50%;
+   
+    
+    /* position : relative; */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.div_time_date > img{
+    width : 100%;
+    height :auto; 
+    opacity: 0.6;  
+}
+
+.div_time_date > div{
+    width : 80%;
+}
+
+.position_time {
+    text-align: center;
+}
+
+.time {
+    color : blueviolet;
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding-bottom: 5px;
+    border-bottom: 5px solid blueviolet;
+    padding-right: 10px;
+}
+
+.date {
+    color : blueviolet;
+    font-size: 1.2rem;
+    padding-top: 5px;
+    font-weight: 700;
+}
+
+/********* fin partie time *******/
+
+.scripture {
+    max-width: 400px;
+    margin-top: 1rem;
+}
+
+cite {
+    margin-top: 2rem;
+}
+
+.container_img_logo {
+    text-align:center;
+}
+
+div h1 + p {
+    color: blueviolet;
+    font-size: 2.6rem;
+}
+
+div > h1 {
+    font-size: 2.8rem;
+}
+/**************** fin header ***************/
+
+/*************** début footer *************/
+
+footer  {
+    /* background-image : linear-gradient(0deg, #fdfe15, white 40%); */
+   
+}
+
+.vision {
+text-align: center;
+border: 1px solid blueviolet;
+width: 300px;
+margin : 0 auto;
+ }
+ 
+ 
+/*************** fin footer *************/
+
+/**************************************** 
+          fin  Généralités 
+***************************************/
+
+/***********************************************
+        Partie réservée aux 'main'
+*********************************************/
+
+
+/*************** début main accueil *************/
+
+.service > div {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+div > figure {
+    flex-basis: 33%;
+}
+
+.service > div:nth-child(1){
+    justify-content: center;
+}
+
+.service > div:last-child{
+    justify-content: center;
+}
+
+figcaption {
+    color: blueviolet;
+    text-decoration: underline;
+}
+
+/*************** fin main accueil *************/
+
+
+/*************** début main menu *************/
+
+ h3 {
+    color: blueviolet;
+    clear: both;
+    text-align: center;
+    padding-bottom: 8px;
+}
+/************ début partie favor **********/
+
+.faver {
+   text-align: center;
+   z-index: 0;
+}
+
+/************ fin partie favor **********/
+
+
+/*********** début partie church_local **********/
+
+.container_local_church > div {
+padding: 10px;
+}
+
+.local_church_div_lastchild {
+    text-align: center;
+}
+
+/********* child1 *************/
+.local_church_div_child1 {
+    display: flex;
+    justify-content: center; 
+    gap: 50px;
+     
+}
+
+.local_church_div_child1 > div {
+    flex-basis : 25%;
+    
+}
+
+.local_church_div_child1 > div > img {
+    width : 100%;
+     height :auto;
+     border-top-left-radius: 20%;
+     border-bottom-right-radius: 20%;
+}
+
+     /********* child2 *************/
+.local_church_div_child2 {
+    display: flex;
+    justify-content: center; 
+    gap: 50px;
+}
+
+.local_church_div_child2 > div {
+    flex-basis : 25%;
+}
+
+.local_church_div_child2 > div > img {
+    width : 100%;
+    height :auto;
+    border-top-right-radius: 20%;
+    border-bottom-left-radius: 20%;
+}
+
+
+/********* child3 *************/
+.local_church_div_child3 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.local_church_div_child3 > div {
+    flex-basis : 25%;
+}
+
+.local_church_div_child3 > div > img {
+    width : 100%;
+    height :auto;
+    border-radius: 20%;
+}
+
+
+
+/************ début church_local **********/
+
+
+/*************** fin main accueil *************/
