@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../CSS/style.css">
-    <link rel="icon" type="image/png" href="../Assets/images/favicon.bmp" />
+    <link rel="stylesheet" href="/ressources/CSS/style.css">
+    <link rel="icon" type="image/png" href="/ressources/Assets/images/favicon.bmp" />
     <title>EEPI</title>
 </head>
 
@@ -19,7 +19,7 @@
             <div class="container_img_logo">
 
                 <!--logo de l'église -->
-                <img src="../Assets/images/logo_eglise21.png" alt="logo de l'église">
+                <img src="/ressources/Assets/images/logo_eglise22.jpg" alt="logo de l'église">
 
                 <div class="name_church">
                     <h1>EGLISE EVANGELIQUE DE PENTECOTE INTERNATIONALE (EEPI)</h1>
@@ -34,11 +34,9 @@
 
                 <ul>
                     <li><a href="/">ACCUEIL</a></li>
-                    <li><a href="menu">MENU</a></li>
-                    <li><a href="about">A PROPOS</a></li>
-                    <!-- <li><a href="contact.html">CONTACT</a></li> -->
-                    <!-- <li><a href="customers">CONTACT</a></li> -->
-                    <li><a href="contact">CONTACT</a></li>
+                    <li><a href="/menu">MENU</a></li>
+                    <li><a href="/about">A PROPOS</a></li>
+                    <li><a href="/contact">CONTACT</a></li>
                 </ul>
 
             </nav>

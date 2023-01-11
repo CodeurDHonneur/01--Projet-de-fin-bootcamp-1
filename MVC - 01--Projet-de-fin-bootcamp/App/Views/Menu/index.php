@@ -16,10 +16,10 @@ require "../App/Views/header.php";
         -->
             <section class="faver">
                 <h1>Parlons du père</h1>
-                <img src="../Assets/images/logo_eglise22.jpg" alt="faver">
+                <img src="ressources/Assets/images/logo_eglise22.jpg" alt="faver">
                 <p>papa AMASSE Hilaire</p>
                 <audio controls="controls" preload="auto" loop>
-                    <source src="../Assets/multimédia/Abba Pére.mp3">
+                    <source src="ressources/Assets/multimédia/Abba Pére.mp3">
                     </source>
 
                 </audio>
@@ -45,30 +45,31 @@ require "../App/Views/header.php";
                                             contact
          -->
             <section>
-                <h1>Nos Assemblées</h1>
-                <div class="container_local_church">
 
+                <h1>Nos Assemblées</h1>
+
+                <div class="container_local_church">
 
                     <div class="local_church_time1">
 
                         <div class="local_church">
                             <h3>Sêtovi</h3>
                             <div>
-                                <img src="../Assets/images/test.jpg" alt="Setovi_1">
+                                <img src="ressources/Assets/images/test.jpg" alt="Setovi_1">
                            </div>
                            <div>Date d'ouverture</div>
                            <div><a href="tel:002296232807">002296232807</a></div>
-                           <div class="localisation"><img src="../Assets/images/map.png" alt="maps"></div>
+                           <div class="localisation"><img src="ressources/Assets/images/map.png" alt="maps"></div>
                         </div>
 
                         <div class="local_church">
                             <h3>Ouèdo</h3>
                             <div>
-                                <img src="../Assets/images/test.jpg" alt="Ouèdo_1">
+                                <img src="ressources/Assets/images/test.jpg" alt="Ouèdo_1">
                            </div>
                            <div>Date d'ouverture</div>
                            <div><a href="tel:002296232807">002296232807</a></div>
-                           <div class="localisation"><img src="../Assets/images/map.png" alt="maps"></div>
+                           <div class="localisation"><img src="ressources/Assets/images/map.png" alt="maps"></div>
                         </div>
 
                     </div>
@@ -79,31 +80,31 @@ require "../App/Views/header.php";
                         <div class="local_church">
                             <h3>Dogbo Zaphi</h3>
                             <div>
-                                <img src="../Assets/images/test.jpg" alt="Dogbo_Zaphi_1">
+                                <img src="ressources/Assets/images/test.jpg" alt="Dogbo_Zaphi_1">
                            </div>
                            <div>Date d'ouverture</div>
                            <div><a href="tel:002296232807">002296232807</a></div>
-                           <div class="localisation"><img src="../Assets/images/map.png" alt="maps"></div>
+                           <div class="localisation"><img src="ressources/Assets/images/map.png" alt="maps"></div>
                         </div>
 
                         <div class="local_church">
                             <h3>Dogbo Fonkomè</h3>
                             <div>
-                                <img src="../Assets/images/test.jpg" alt="Dogbo_Fonkomè_1">
+                                <img src="ressources/Assets/images/test.jpg" alt="Dogbo_Fonkomè_1">
                             </div>
                             <div>Date d'ouverture</div>
                             <div><a href="tel:002296232807">002296232807</a></div>
-                            <div class="localisation"><img src="../Assets/images/map.png" alt="maps"></div>
+                            <div class="localisation"><img src="ressources/Assets/images/map.png" alt="maps"></div>
                         </div>
 
                         <div class="local_church">
                             <h3>Sey Chatêau</h3>
                             <div>
-                                <img src="../Assets/images/test.jpg" alt="Sey_Chateau_1">
+                                <img src="ressources/Assets/images/test.jpg" alt="Sey_Chateau_1">
                            </div>
                            <div>Date d'ouverture</div>
                            <div><a href="tel:002296232807">002296232807</a></div>
-                           <div class="localisation"><img src="../Assets/images/map.png" alt="maps"></div>
+                           <div class="localisation"><img src="ressources/Assets/images/map.png" alt="maps"></div>
                         </div>
 
                     </div>
@@ -114,36 +115,37 @@ require "../App/Views/header.php";
                         <div class="local_church">
                             <h3>Sey Hougo Agla</h3>
                             <div>
-                                <img src="../Assets/images/test.jpg" alt="Sey_Hougo_Agla_1">
+                                <img src="ressources/Assets/images/test.jpg" alt="Sey_Hougo_Agla_1">
                            </div>
                            <div>Date d'ouverture</div>
                            <div><a href="tel:002296232807">002296232807</a></div>
-                           <div class="localisation"><img src="../Assets/images/map.png" alt="maps"></div>
+                           <div class="localisation"><img src="ressources/Assets/images/map.png" alt="maps"></div>
                         </div>
 
                         <div class="local_church">
                             <h3>Helou</h3>
                             <div>
-                                <img src="../Assets/images/test.jpg" alt="Helou_1">
+                                <img src="ressources/Assets/images/test.jpg" alt="Helou_1">
                            </div>
                            <div>Date d'ouverture</div>
                            <div><a href="tel:002296232807">002296232807</a></div>
-                           <div class="localisation"><img src="../Assets/images/map.png" alt="maps"></div>
+                           <div class="localisation"><img src="ressources/Assets/images/map.png" alt="maps"></div>
                         </div>
 
                         <div class="local_church">
                             <h3>Akahoué</h3>
                             <div>
-                                 <img src="../Assets/images/test.jpg" alt="Akahoué_1">
+                                 <img src="ressources/Assets/images/test.jpg" alt="Akahoué_1">
                             </div>
                             <div>Date d'ouverture</div>
                             <div><a href="tel:002296232807">002296232807</a></div>
-                            <div class="localisation"><img src="../Assets/images/map.png" alt="maps"></div>
+                            <div class="localisation"><img src="ressources/Assets/images/map.png" alt="maps"></div>
                         </div>
 
                     </div>
 
                 </div>
+
             </section>
 
             <section>
@@ -179,31 +181,12 @@ require "../App/Views/header.php";
 
     </main>
 
-    <footer>
-        <!-- avoir dans le footer un texte : "Aller partout  dans le monde annoncer la bonne nouvelle" (dépendra de la vision donc peut changer)  -->
-        <div>
+    <?php
 
-            <div class="vision">
+require "../App/Views/footer.php";
 
-                NOTRE VISION <br>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, temporibus suscipit incidunt fugit
-                nam architecto inventore quia odio
-            </div>
+?>
 
-        </div>
-
-        <div>
-            NOTRE VISION <br>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, temporibus suscipit incidunt fugit nam
-            architecto inventore quia odio. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque quisquam
-            officia consectetur dicta nisi dolore saepe nulla deserunt labore, blanditiis incidunt voluptate eaque eius
-            voluptatum obcaecati ratione possimus aperiam excepturi. Lorem, ipsum dolor sit amet consectetur adipisicing
-            elit. Nostrum alias dolorem sed at, officia qui corrupti dolor accusantium facere corporis nesciunt impedit
-            laborum fugit quae magnam obcaecati nemo quis cumque!
-        </div>
-
-    </footer>
-    <script src="../JS/script _clock.js"></script>
 </body>
 
 </html>

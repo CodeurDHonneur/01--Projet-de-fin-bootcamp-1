@@ -37,6 +37,7 @@ $router->add('', ['controller' => 'Home', 'action' => 'index']);
 $router->add('menu', ['controller' => 'Menu', 'action' => 'index']);
 $router->add('about', ['controller' => 'About', 'action' => 'index']);
 $router->add('contact', ['controller' => 'Contact', 'action' => 'index']);
+$router->add('about/archive', ['controller' => 'Archive', 'action' => 'index']);
 
 
 // $router->add('posts/new', ['controller' => 'Posts', 'action' => 'new']);

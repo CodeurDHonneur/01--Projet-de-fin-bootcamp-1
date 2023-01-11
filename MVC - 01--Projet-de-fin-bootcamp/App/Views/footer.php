@@ -31,9 +31,7 @@
 
     </footer>
 
-    <script src="../JS/script _clock.js"></script>
-    <script src="../JS/slide.js"></script>
+    <script src="/ressources/JS/script_clock.js"></script>
+   
 
-</body>
 
-</html>

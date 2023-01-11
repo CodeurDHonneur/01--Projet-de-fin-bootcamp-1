@@ -1,4 +1,5 @@
 <?php
+
 require "../App/Views/header.php";
 
 ?>
@@ -12,15 +13,15 @@ require "../App/Views/header.php";
                     <!-- Full-width images with number and caption text -->
 
                     <div class="mySlides fade">
-                        <img src="../Assets/images/test.jpg" alt="slider">
+                        <img src="ressources/Assets/images/test.jpg" alt="slider">
                     </div>
 
                     <div class="mySlides fade">
-                        <img src="../Assets/images/fabrice.jpg" alt="slider">
+                        <img src="ressources/Assets/images/fabrice.jpg" alt="slider">
                     </div>
 
                     <div class="mySlides fade">
-                        <img src="../Assets/images/freshly/slider-02.jpg" alt="slider">
+                        <img src="ressources/Assets/images/freshly/slider-02.jpg" alt="slider">
                     </div>
 
                     <!-- Next and previous buttons -->
@@ -55,51 +56,51 @@ require "../App/Views/header.php";
                 <div class="service">
                     <div>
                         <figure>
-                            <img src="../Assets/images/logo_eglise22.jpg" alt="maman AMASSE">
+                            <img src="ressources/Assets/images/logo_eglise22.jpg" alt="maman AMASSE">
                             <figcaption>maman AMASSE</figcaption>
                         </figure>
                     </div>
                     <div>
                         <figure>
-                            <img src="../Assets/images/logo_eglise22.jpg" alt="Pasteur ACATCHA Spéro">
+                            <img src="ressources/Assets/images/logo_eglise22.jpg" alt="Pasteur ACATCHA Spéro">
                             <figcaption>Pasteur ACATCHA Spéro</figcaption>
                         </figure>
                         <figure>
-                            <img src="../Assets/images/logo_eglise22.jpg" alt="Pasteur HOUNSA Rodrigue">
+                            <img src="ressources/Assets/images/logo_eglise22.jpg" alt="Pasteur HOUNSA Rodrigue">
                             <figcaption>Pasteur HOUNSA Rodrigue</figcaption>
                         </figure>
                         <figure>
-                            <img src="../Assets/images/logo_eglise22.jpg" alt="Pasteur SOSSA Narcisse">
+                            <img src="ressources/Assets/images/logo_eglise22.jpg" alt="Pasteur SOSSA Narcisse">
                             <figcaption>Pasteur SOSSA Narcisse</figcaption>
                         </figure>
                         <figure>
-                            <img src="../Assets/images/logo_eglise22.jpg" alt="Pasteur AGASSOUSSI Ernest">
+                            <img src="ressources/Assets/images/logo_eglise22.jpg" alt="Pasteur AGASSOUSSI Ernest">
                             <figcaption>Pasteur AGASSOUSSI Ernest</figcaption>
                         </figure>
                         <figure>
-                            <img src="../Assets/images/logo_eglise22.jpg" alt="Pasteur Elisha Sévérine epse. AKPO">
+                            <img src="ressources/Assets/images/logo_eglise22.jpg" alt="Pasteur Elisha Sévérine epse. AKPO">
                             <figcaption>Pasteur Elisha Sévérine (epse. AKPO) </figcaption>
                         </figure>
                         <figure>
-                            <img src="../Assets/images/logo_eglise22.jpg" alt="Pasteur Céline epse.">
+                            <img src="ressources/Assets/images/logo_eglise22.jpg" alt="Pasteur Céline epse.">
                             <figcaption>Pasteur Céline (epse.)</figcaption>
                         </figure>
                         <figure>
-                            <img src="../Assets/images/logo_eglise22.jpg" alt="Pasteur ADONON Daniel">
+                            <img src="ressources/Assets/images/logo_eglise22.jpg" alt="Pasteur ADONON Daniel">
                             <figcaption>Pasteur ADONON Daniel</figcaption>
                         </figure>
                         <figure>
-                            <img src="../Assets/images/logo_eglise22.jpg" alt="Pasteur Raymond">
+                            <img src="ressources/Assets/images/logo_eglise22.jpg" alt="Pasteur Raymond">
                             <figcaption>Pasteur Raymond</figcaption>
                         </figure>
                         <figure>
-                            <img src="../Assets/images/logo_eglise22.jpg" alt="Ancien AKPO Eloge">
+                            <img src="ressources/Assets/images/logo_eglise22.jpg" alt="Ancien AKPO Eloge">
                             <figcaption>Ancien AKPO Eloge</figcaption>
                         </figure>
                     </div>
                     <div>
                         <figure>
-                            <img src="../Assets/images/logo_eglise22.jpg" alt="Coordonnateur AMASSE Carlos">
+                            <img src="ressources/Assets/images/logo_eglise22.jpg" alt="Coordonnateur AMASSE Carlos">
                             <figcaption>Coordonnateur AMASSE Carlos</figcaption>
                         </figure>
                     </div>
@@ -107,44 +108,16 @@ require "../App/Views/header.php";
             </article>
 
         </div>
+
     </main>
 
-    <footer>
+    <?php
 
-        <div class="max-width-1200">
+    require "../App/Views/footer.php";
 
-            <!-- avoir dans le footer un texte : "Aller partout  dans le monde annoncer la bonne nouvelle" (dépendra de la vision donc peut changer)  -->
-            <div>
-                <div class="vision">
-                    NOTRE VISION <br>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, temporibus suscipit incidunt
-                    fugit
-                    nam architecto inventore quia odio
-                </div>
-            </div>
-            <div>
-                NOTRE VISION <br>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, temporibus suscipit incidunt fugit
-                nam
-                architecto inventore quia odio. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque quisquam
-                officia consectetur dicta nisi dolore saepe nulla deserunt labore, blanditiis incidunt voluptate eaque
-                eius
-                voluptatum obcaecati ratione possimus aperiam excepturi. Lorem, ipsum dolor sit amet consectetur
-                adipisicing
-                elit. Nostrum alias dolorem sed at, officia qui corrupti dolor accusantium facere corporis nesciunt
-                impedit
-                laborum fugit quae magnam obcaecati nemo quis cumque!
-            </div>
+    ?>
 
-        </div>
-
-
-
-    </footer>
-
-    <script src="../JS/script _clock.js"></script>
-    <script src="../JS/slide.js"></script>
-
+    <script src="ressources/JS/slide.js"></script>
 </body>
 
 </html>
