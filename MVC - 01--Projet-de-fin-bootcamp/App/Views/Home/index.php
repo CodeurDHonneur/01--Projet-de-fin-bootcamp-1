@@ -54,13 +54,21 @@ require "../App/Views/header.php";
                 <h1>A VOTRE SERVICE</h1>
 
                 <div class="service">
+                    <!-- <div>
+                        <figure>
+                            <img src="ressources/Assets/images/logo_eglise22.jpg" alt="maman AMASSE">
+                            <figcaption>maman AMASSE</figcaption>
+                        </figure>
+                    </div> -->
                     <div>
                         <figure>
                             <img src="ressources/Assets/images/logo_eglise22.jpg" alt="maman AMASSE">
                             <figcaption>maman AMASSE</figcaption>
                         </figure>
-                    </div>
-                    <div>
+                        <figure>
+                            <img src="ressources/Assets/images/logo_eglise22.jpg" alt="Coordonnateur AMASSE Carlos">
+                            <figcaption>Coordonnateur AMASSE Carlos</figcaption>
+                        </figure>
                         <figure>
                             <img src="ressources/Assets/images/logo_eglise22.jpg" alt="Pasteur ACATCHA Spéro">
                             <figcaption>Pasteur ACATCHA Spéro</figcaption>
@@ -98,12 +106,12 @@ require "../App/Views/header.php";
                             <figcaption>Ancien AKPO Eloge</figcaption>
                         </figure>
                     </div>
-                    <div>
+                    <!-- <div>
                         <figure>
                             <img src="ressources/Assets/images/logo_eglise22.jpg" alt="Coordonnateur AMASSE Carlos">
                             <figcaption>Coordonnateur AMASSE Carlos</figcaption>
                         </figure>
-                    </div>
+                    </div> -->
                 </div>
             </article>
 
