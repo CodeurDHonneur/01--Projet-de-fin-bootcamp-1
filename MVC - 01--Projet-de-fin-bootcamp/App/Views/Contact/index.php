@@ -5,7 +5,7 @@ require "../App/Views/header.php";
 
 <div class="container_form">
 
-    <form action="" method="post">
+    <form action="" method="post" class="form_contact">
 
         <fieldset>
 

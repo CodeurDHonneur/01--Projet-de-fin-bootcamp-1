@@ -39,59 +39,63 @@ require "../App/Views/header.php";
         <section>
 
             <h1>Allons plus loin</h1>
+            
+            <div>
+           
+                <article class="article_parole">
+                    <h1>Manne Quotidienne</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora fuga, minima consequuntur voluptas neque fugit fugiat at cum suscipit quasi repudiandae obcaecati in facilis quae natus et facere deserunt dolorem?
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque soluta voluptate illo blanditiis quae, minus adipisci ratione quibusdam dignissimos provident qui, culpa molestiae recusandae. Modi odio eius quod dolorum dicta!
+                    </p>
+                    <div><a href="about/archive">Voir plus</a></div>
+                </article>
 
-            <article>
-                <h1>Manne Quotidienne</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora fuga, minima consequuntur voluptas neque fugit fugiat at cum suscipit quasi repudiandae obcaecati in facilis quae natus et facere deserunt dolorem?
+                <article class="article_parole">
+                    <h1>Parole en vidéo pour toi</h1>
+                    <video  width="320" height="320"controls>
+                        <source src="ressources/Assets/multimédia/Vidéos/video1.mp4"></source>
+                    </video>
+                    <div><a href="about/archive">Voir plus</a></div>
+                </article>
+
+                <article class="article_parole">
+                    <h1>Parole pour toi</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora fuga, minima consequuntur voluptas neque fugit fugiat at cum suscipit quasi repudiandae obcaecati in facilis quae natus et facere deserunt dolorem?
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque soluta voluptate illo blanditiis quae, minus adipisci ratione quibusdam dignissimos provident qui, culpa molestiae recusandae. Modi odio eius quod dolorum dicta!
-                </p>
-                <div><a href="about/archive">Voir plus</a></div>
-            </article>
+                    </p>
+                    <div><a href="about/archive">Voir plus</a></div>
+                </article>
 
-            <article>
-                <h1>Parole en vidéo pour toi</h1>
-                <video  width="320" height="320"controls>
-                    <source src="ressources/Assets/multimédia/Vidéos/video1.mp4"></source>
-                </video>
-                <div><a href="about/archive">Voir plus</a></div>
-            </article>
-
-            <article>
-                <h1>Parole pour toi</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora fuga, minima consequuntur voluptas neque fugit fugiat at cum suscipit quasi repudiandae obcaecati in facilis quae natus et facere deserunt dolorem?
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque soluta voluptate illo blanditiis quae, minus adipisci ratione quibusdam dignissimos provident qui, culpa molestiae recusandae. Modi odio eius quod dolorum dicta!
-                </p>
-                <div><a href="about/archive">Voir plus</a></div>
-            </article>
+            </div>
 
             <article>
 
                 <h1>Nos programmes</h1>
 
-                <div>
+                <div class="container_programme">
 
-                    <div>
+                    <div class="div_programme">
                         <h3>A l'école de Sara</h3>
                         <img src="" alt="">
                         <p>Lundi : 10h - 12h</p>
                         <p>Parceque la Parole est le fondement de tout, nos mamans viennent apprendre à bâtir le leur sur elle.</p>
                     </div>
 
-                    <div>
+                    <div class="div_programme">
                         <h3>Aux pieds du Maître</h3>
                         <img src="" alt="">
                         <p>Mardi : 19h 30 - 21h</p>
                         <p>Sa vie, nous la recevons lorsque à ses pieds, nous prenons le temps de l'écouter.</p>
                     </div>
 
-                    <div>
+                    <div class="div_programme">
                         <h3>Combat de destinée</h3>
                         <img src="" alt="">
                         <p>Vendredi : 19h 30 - 21h</p>
                         <p>La destinée ne se ramasse pas, elle se construit et a besoin de notre engagement.</p>
                     </div>
 
-                    <div>
+                    <div class="div_programme">
                         <h3>Dans sa Présence</h3>
                         <img src="" alt="">
                         <p>Dimanche : 9h - 11h 30</p>

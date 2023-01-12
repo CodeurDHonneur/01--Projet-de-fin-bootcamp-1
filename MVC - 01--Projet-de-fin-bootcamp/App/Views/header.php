@@ -19,9 +19,12 @@
             <div class="container_img_logo">
 
                 <!--logo de l'église -->
-                <img src="/ressources/Assets/images/logo_eglise22.jpg" alt="logo de l'église">
-
+                <div class="img_logo">
+                    <img src="/ressources/Assets/images/logo_eglise22.jpg" alt="logo de l'église">
+                </div>
+                
                 <div class="name_church">
+                    <!-- <img src="" alt="name church"> -->
                     <h1>EGLISE EVANGELIQUE DE PENTECOTE INTERNATIONALE (EEPI)</h1>
                     <!-- <p>Assemblée de COCOTOMEY</p> -->
                 </div>

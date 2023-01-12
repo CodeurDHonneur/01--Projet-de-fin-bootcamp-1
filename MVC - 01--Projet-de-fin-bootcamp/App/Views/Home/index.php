@@ -82,8 +82,8 @@ require "../App/Views/header.php";
                             <figcaption>Pasteur Elisha Sévérine (epse. AKPO) </figcaption>
                         </figure>
                         <figure>
-                            <img src="ressources/Assets/images/logo_eglise22.jpg" alt="Pasteur Céline epse.">
-                            <figcaption>Pasteur Céline (epse.)</figcaption>
+                            <img src="ressources/Assets/images/logo_eglise22.jpg" alt="Pasteur BOSSOU Pélagie Céline (epse. ADENON)">
+                            <figcaption>Pasteur BOSSOU Pélagie Céline (epse. ADENON)</figcaption>
                         </figure>
                         <figure>
                             <img src="ressources/Assets/images/logo_eglise22.jpg" alt="Pasteur ADONON Daniel">

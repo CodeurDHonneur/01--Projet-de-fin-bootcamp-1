@@ -50,7 +50,7 @@ require "../App/Views/header.php";
 
                 <div class="container_local_church">
 
-                    <div class="local_church_time1">
+                    <!-- <div class="local_church_time1"> -->
 
                         <div class="local_church">
                             <h3>Sêtovi</h3>
@@ -72,10 +72,11 @@ require "../App/Views/header.php";
                            <div class="localisation"><img src="ressources/Assets/images/map.png" alt="maps"></div>
                         </div>
 
-                    </div>
+                    <!-- </div> -->
 
 
-                    <div class="local_church_time2">
+                    <!-- <div class="local_church_time2"> -->
+                    
 
                         <div class="local_church">
                             <h3>Dogbo Zaphi</h3>
@@ -107,10 +108,10 @@ require "../App/Views/header.php";
                            <div class="localisation"><img src="ressources/Assets/images/map.png" alt="maps"></div>
                         </div>
 
-                    </div>
+                    <!-- </div> -->
 
 
-                    <div class="local_church_time3">
+                    <!-- <div class="local_church_time3"> -->
 
                         <div class="local_church">
                             <h3>Sey Hougo Agla</h3>
@@ -142,7 +143,7 @@ require "../App/Views/header.php";
                             <div class="localisation"><img src="ressources/Assets/images/map.png" alt="maps"></div>
                         </div>
 
-                    </div>
+                    <!-- </div> -->
 
                 </div>
 
